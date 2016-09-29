@@ -1,0 +1,18 @@
+
+before_script:
+    - echo "CI for routelock, 2016-09-23"
+    - smvn --version
+
+default:
+    script: 
+        - smvn init
+        - smvn bnt
+        - smvn install
+        - smvn deploy
+
+default2:
+    script: 
+        - smvn init
+        - smvn bnt
+        - smvn install
+        - smvn deploy

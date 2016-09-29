@@ -1,0 +1,14 @@
+<project>
+	<groupId>unifw.base</groupId>
+	<artifactId>fsm</artifactId>
+	<version>0.1.1</version>
+	<header_prefix>base</header_prefix>
+	<header>fsm.h</header>
+	<lib>fsm</lib>
+	<dependencies>
+		<dependency>
+			<groupId>unifw</groupId>
+			<artifactId>pub</artifactId>
+		</dependency>
+	</dependencies>
+</project>

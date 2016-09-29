@@ -1,0 +1,21 @@
+<project>
+  <groupId>lrts.ci</groupId>
+  <artifactId>signal</artifactId>
+  <version>0.1.0</version>
+  <lib>signal</lib>
+
+  <header>signal.h</header>
+
+  <dependencies>
+    <dependency>
+  <groupId>unifw</groupId>
+  <artifactId>pub</artifactId>
+  <groupId>lrts.ci</groupId>
+  <artifactId>public</artifactId>
+  </dependency>
+  <dependency>
+      <groupId>unifw.base</groupId>
+      <artifactId>fsm</artifactId>
+    </dependency>
+  </dependencies>
+</project>

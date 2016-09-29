@@ -1,0 +1,28 @@
+<project>
+  <groupId>lrts.ci</groupId>
+  <artifactId>routelock</artifactId>
+  <version>0.1.0</version>
+  <lib>routelock</lib>
+  
+  <header>routelock.h</header>
+
+  <dependencies>
+
+  <dependency>
+  <groupId>unifw</groupId>
+    <artifactId>pub</artifactId>
+      <groupId>lrts.ci</groupId>
+      <artifactId>public</artifactId>
+  </dependency>
+
+  <dependency>
+    <groupId>lrts.ci</groupId>
+    <artifactId>signal</artifactId>
+  </dependency>
+
+  <dependency>
+      <groupId>unifw.base</groupId>
+      <artifactId>fsm</artifactId>
+    </dependency>
+  </dependencies>
+</project>
